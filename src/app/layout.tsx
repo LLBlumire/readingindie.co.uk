@@ -26,9 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`flex flex-col min-h-screen ${inter.className}`}>
+      <body className={`flex flex-col gap-12 min-h-screen ${inter.className}`}>
         <header
-          className={`bg-red-600 text-white font-bold max-w-max mx-auto flex flex-col justify-center py-14 px-10 gap-14 ${atkinson.className}`}
+          className={`bg-red-600 text-white mx-auto flex flex-col justify-center p-14 gap-10 ${atkinson.className}`}
         >
           <h1 className="text-5xl text-center md:text-6xl">
             Reading Indie Gamers
