@@ -3,7 +3,7 @@ import { atkinson } from "~/app/font";
 
 export default function Home() {
   return (
-    <article className="prose-lg">
+    <article className="prose prose-lg">
       <h2 className={atkinson.className}>Welcome!</h2>
       <p>
         Reading Indie Gamers is an inclusive gaming club dedicated to
@@ -11,11 +11,8 @@ export default function Home() {
       </p>
       <p>
         In the interest of being a fun environment for everyone, please read and
-        uphold our{" "}
-        <Link href="/coc" className="underline decoration-4 decoration-red-600">
-          Code of Conduct
-        </Link>{" "}
-        while participating in club activities, online and in person.
+        uphold our <Link href="/coc">Code of Conduct</Link> while participating
+        in club activities, online and in person.
       </p>
       <h2 className={atkinson.className}>
         What Is A Tabletop Roleplaying Game?
@@ -40,18 +37,36 @@ export default function Home() {
         run or play isn&apos;t towards the far right of that spectrum it should
         be welcome.
       </p>
+      <h2 className={atkinson.className}>Do you ever play D&D?</h2>
+      <p>
+        We focus on the other games that are available, and receive less
+        commercial attention. Don&apos;t worry if you&pos;ve never played any
+        other TTRPG before, many of the games we play are some of the easiest
+        TTRPGs to learn, and are a fantastic gateway into the hobby!
+      </p>
       <h2 className={atkinson.className}>Join The Discord</h2>
       <p>
         All of our events and activities are planned and organised through
         discord, so while we have a presence on other social platforms, if you
         want to participate then you&apos;ll need to find your way there!
       </p>
-      <Link
-        href="https://discord.gg/vG4XtVK4mt"
-        className={`bg-red-600 text-white p-4 px-8 mt-8 text-4xl rounded-full block mx-auto w-max shadow hover:bg-red-500 transition-all ease-in-out hover:scale-105 ${atkinson.className}`}
-      >
-        Join Us!
-      </Link>
+      <div className="not-prose">
+        <Link
+          href="https://discord.gg/vG4XtVK4mt"
+          className={`bg-red-600 text-white p-4 px-8 my-8 text-4xl rounded-full block mx-auto w-max shadow transition-all ease-in-out hover:scale-105 ${atkinson.className}`}
+        >
+          Join Us!
+        </Link>
+      </div>
+      <p>Our Discord is open to any of the following:</p>
+      <ul>
+        <li>Those who live in or around Reading.</li>
+        <li>Those willing to commute to the Reading area to participate.</li>
+      </ul>
+      <p>
+        We focus primarily on in person events, and so if you aren&apos;t from
+        Reading or nearby, there&apos;s little reason for you to join!
+      </p>
     </article>
   );
 }

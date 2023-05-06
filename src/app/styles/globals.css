@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+    a {
+        text-decoration-skip-ink: none;
+    }
     .nav-link {
         position: relative;
     }
@@ -20,5 +23,9 @@
     }
     .nav-link:hover::after {
         transform: scaleX(100%);
+    }
+
+    .prose :where(a):not(:where([class~="not-prose"] *)) {
+        @apply underline decoration-4 decoration-red-600;
     }
 }
