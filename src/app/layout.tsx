@@ -55,34 +55,42 @@ export default function RootLayout({
         </header>
         <main className="flex-grow">{children}</main>
         <footer className="flex gap-8 justify-center p-4">
-          <Image
-            src="/icons/facebook.svg"
-            width={48}
-            height={48}
-            className="text-red-600"
-            alt="Facebook"
-          ></Image>
-          <Image
-            src="/icons/instagram.svg"
-            width={48}
-            height={48}
-            className="text-red-600"
-            alt="Instagram"
-          ></Image>
-          <Image
-            src="/icons/twitter.svg"
-            width={48}
-            height={48}
-            className="text-red-600"
-            alt="Twitter"
-          ></Image>
-          <Image
-            src="/icons/discord.svg"
-            width={48}
-            height={48}
-            className="text-red-600"
-            alt="Discord"
-          ></Image>
+          <Link href="https://www.facebook.com/groups/1248946379340552">
+            <Image
+              src="/icons/facebook.svg"
+              width={48}
+              height={48}
+              className="text-red-600"
+              alt="Facebook"
+            ></Image>
+          </Link>
+          <Link href="https://www.instagram.com/ReadingIndie/">
+            <Image
+              src="/icons/instagram.svg"
+              width={48}
+              height={48}
+              className="text-red-600"
+              alt="Instagram"
+            ></Image>
+          </Link>
+          <Link href="https://twitter.com/ReadingIndie">
+            <Image
+              src="/icons/twitter.svg"
+              width={48}
+              height={48}
+              className="text-red-600"
+              alt="Twitter"
+            ></Image>
+          </Link>
+          <Link href="https://discord.gg/vG4XtVK4mt">
+            <Image
+              src="/icons/discord.svg"
+              width={48}
+              height={48}
+              className="text-red-600"
+              alt="Discord"
+            ></Image>
+          </Link>
         </footer>
       </body>
     </html>
