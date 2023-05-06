@@ -2,7 +2,7 @@ import { atkinson } from "~/app/font";
 
 export default function Coc() {
   return (
-    <section className="max-w-prose mx-auto my-8 px-4">
+    <article className="prose-lg">
       <h2 className={`text-2xl font-bold ${atkinson.className} md:text-3xl`}>
         Code of Conduct
       </h2>
@@ -30,6 +30,6 @@ export default function Coc() {
         veniam libero dignissimos excepturi accusantium. Blanditiis
         exercitationem, quas temporibus nisi laboriosam autem porro illo?
       </p>
-    </section>
+    </article>
   );
 }

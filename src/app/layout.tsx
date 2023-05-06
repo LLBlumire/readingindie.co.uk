@@ -53,7 +53,9 @@ export default function RootLayout({
             </ul>
           </nav>
         </header>
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow max-w-screen-sm mx-auto px-6 w-full">
+          {children}
+        </main>
         <footer className="flex gap-8 justify-center p-4">
           <Link href="https://www.facebook.com/groups/1248946379340552">
             <Image

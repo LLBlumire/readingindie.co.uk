@@ -3,7 +3,7 @@ import { atkinson } from "~/app/font";
 
 export default function Home() {
   return (
-    <section className="max-w-screen-md mx-auto prose-lg px-6">
+    <article className="prose-lg">
       <h2 className={atkinson.className}>Welcome!</h2>
       <p>
         Reading Indie Gamers is an inclusive gaming club dedicated to
@@ -52,6 +52,6 @@ export default function Home() {
       >
         Join Us!
       </Link>
-    </section>
+    </article>
   );
 }

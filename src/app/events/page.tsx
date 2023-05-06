@@ -12,24 +12,28 @@ const EventValidator = z.object({
   scheduled_end_time: z.string().datetime({ offset: true }).nullable(),
   entity_metadata: z.object({ location: z.string().nullable() }).nullable(),
   image: z.string().nullable(),
+  user_count: z.number().optional(),
 });
 type Event = z.infer<typeof EventValidator>;
 
 const EventListValidator = z.array(EventValidator);
 
+export const revalidate = "production" ? 120 : 30;
+
 export default async function Coc() {
   const serverEvents = await fetch(
-    `https://discord.com/api/v10/guilds/${env.DISCORD_GUILD}/scheduled-events`,
+    `https://discord.com/api/v10/guilds/${env.DISCORD_GUILD}/scheduled-events?with_user_count=true`,
     {
       headers: {
         Authorization: `Bot ${process.env.DISCORD_TOKEN ?? ""}`,
       },
-      next: {
-        revalidate: env.NODE_ENV === "production" ? 120 : 30,
-      },
     }
   )
     .then((value) => value.json())
+    .then((value) => {
+      console.log(value);
+      return value;
+    })
     .then((value) => EventListValidator.parse(value));
 
   serverEvents.sort((a, b) =>
@@ -58,7 +62,7 @@ function EventCard({ event }: { event: Event }) {
             <Image src={imageUrl} alt="" fill />
           </div>
         ) : null}
-        <div className="px-6 py-4 flex flex-col gap-2">
+        <div className="px-6 py-4 flex flex-col gap-4">
           <div className={`flex justify-between ${atkinson.className}`}>
             <div>{startTime.toLocaleString("en-GB")}</div>
             <div>
@@ -69,6 +73,17 @@ function EventCard({ event }: { event: Event }) {
           </div>
           <h3 className={`text-2xl ${atkinson.className}`}>{event.name}</h3>
           <p className="">{event.description}</p>
+          <div className="flex gap-4 items-center justify-end">
+            <div className={atkinson.className}>
+              Current Players: {event.user_count ?? 0}
+            </div>
+            <Link
+              href="https://discord.gg/vG4XtVK4mt"
+              className={`bg-red-600 px-4 py-2 rounded-full text-white hover:scale-105 transition-all ease-in-out ${atkinson.className}`}
+            >
+              Sign Up
+            </Link>
+          </div>
         </div>
       </div>
     </>
