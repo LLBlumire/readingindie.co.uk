@@ -64,7 +64,11 @@ function EventCard({ event }: { event: Event }) {
         ) : null}
         <div className="px-6 py-4 flex flex-col gap-4">
           <div className={`flex justify-between ${atkinson.className}`}>
-            <div>{startTime.toLocaleString("en-GB")}</div>
+            <div>
+              {startTime.toLocaleString("en-GB", {
+                timeZone: "Europe/London",
+              })}
+            </div>
             <div>
               {event.entity_metadata?.location ?? (
                 <Link href="https://discord.gg/vG4XtVK4mt">On Discord</Link>
