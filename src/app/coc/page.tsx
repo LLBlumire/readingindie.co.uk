@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { atkinson } from "~/app/font";
 
 export default function Coc() {
   return (
-    <article className="prose prose-lg">
-      <h2 className={atkinson.className}>Code of Conduct</h2>
+    <article className="prose prose-lg prose-headings:font-atkinson">
+      <h2>Code of Conduct</h2>
       <p>
         Reading Indie Gamers (RIG) is a gaming community. Everyone participating
         in Reading Indie Gamers including, but not limited to our Discord
@@ -26,18 +25,18 @@ export default function Coc() {
         Anyone who violates this Code of Conduct may be sanctioned or expelled
         from RIG spaces.
       </p>
-      <h3 className={atkinson.className}>Principles</h3>
+      <h3>Principles</h3>
       <p>
         In accordance with our Code of Conduct, everyone who participates in
         Reading Indie Gamers shall function within the following principles:
       </p>
-      <h4 className={atkinson.className}>Safety</h4>
+      <h4>Safety</h4>
       <p>
         All games run within our community must use, explain, and support safety
         tools. This isn&apos;t to eliminate challenging content, but to make
         sure that everyone knows the bounds and has given consent.
       </p>
-      <h4 className={atkinson.className}>Consideration</h4>
+      <h4>Consideration</h4>
       <p>
         That safety doesn&apos;t end at the gaming table, or with formal safety
         tools. We ask when in our spaces you consider your words and their
@@ -47,7 +46,7 @@ export default function Coc() {
         integrity and love. Be positive and supportive of others as you would
         hope they would be of you.
       </p>
-      <h4 className={atkinson.className}>Inclusivity</h4>
+      <h4>Inclusivity</h4>
       <p>
         Community members must be supportive and inclusive. They should think
         about the impact of their words, the privilege they hold, and the
@@ -56,7 +55,7 @@ export default function Coc() {
         people&apos;s comfort and will make all reasonable efforts to be
         inclusive.
       </p>
-      <h3 className={atkinson.className}>Guidelines</h3>
+      <h3>Guidelines</h3>
       <p>
         In the course of exemplifying the Community Principles, all members of
         our community shall function within the following guidelines:
@@ -83,7 +82,7 @@ export default function Coc() {
           Lines & Veils, etc) into every game shared.
         </li>
       </ul>
-      <h3 className={atkinson.className}>Tools</h3>
+      <h3>Tools</h3>
       <p>
         Games organized through the Reading Indie Gamers must use tools for
         safe, welcoming play. We recommend that all members read the{" "}
@@ -97,7 +96,7 @@ export default function Coc() {
           Accessibility in Tabletop curated by Jennifer Kretchmer.
         </Link>
       </p>
-      <h3 className={atkinson.className}>Definitions</h3>
+      <h3>Definitions</h3>
       <p>Harassment includes:</p>
       <ul>
         <li>
@@ -191,7 +190,7 @@ export default function Coc() {
           otherwise oppressive behaviour or assumptions.
         </li>
       </ul>
-      <h3 className={atkinson.className}>Reporting</h3>
+      <h3>Reporting</h3>
       <p>
         If you experience disrespectful or harassing behaviour by a member of
         the community, notice that someone else is being disrespected or
@@ -199,7 +198,7 @@ export default function Coc() {
         the Organisation Team on our{" "}
         <Link href="https://discord.gg/vG4XtVK4mt">Discord Server</Link>.
       </p>
-      <h4 className={atkinson.className}>Enforcement &amp; Consequences</h4>
+      <h4>Enforcement &amp; Consequences</h4>
       <p>
         Participants asked to modify their behaviour are expected to comply
         immediately.
@@ -219,7 +218,7 @@ export default function Coc() {
         You should be assured that there will be no retaliation against you for
         making good faith claims.
       </p>
-      <h3 className={atkinson.className}>Thanks and Attribution</h3>
+      <h3>Thanks and Attribution</h3>
       <p>
         This policy was taken from the{" "}
         <Link href="https://edinburghindiegamers.com/code-of-conduct">

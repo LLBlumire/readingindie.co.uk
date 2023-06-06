@@ -29,3 +29,12 @@
         @apply underline decoration-4 decoration-red-600;
     }
 }
+
+@layer utilities {
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+  .font-atkinson {
+    font-family: var(--font-atkinson);
+  }
+}

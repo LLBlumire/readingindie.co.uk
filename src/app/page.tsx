@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { atkinson } from "~/app/font";
 
 export default function Home() {
   return (
-    <article className="prose prose-lg">
-      <h2 className={atkinson.className}>Welcome!</h2>
+    <article className="prose prose-lg prose-headings:font-atkinson">
+      <h2>Welcome!</h2>
       <p>
         Reading Indie Gamers is an inclusive gaming club dedicated to
         independently published and lesser known roleplaying games.
@@ -14,9 +13,7 @@ export default function Home() {
         uphold our <Link href="/coc">Code of Conduct</Link> while participating
         in club activities, online and in person.
       </p>
-      <h2 className={atkinson.className}>
-        What Is A Tabletop Roleplaying Game?
-      </h2>
+      <h2>What Is A Tabletop Roleplaying Game?</h2>
       <p>
         Tabletop Roleplaying Games invite you and some friends to sit down, and
         imagine another world. It might be similar to ours, or it may be
@@ -24,7 +21,7 @@ export default function Home() {
         your friends to tell a story in this world, and the rules of the game
         will guide that story.
       </p>
-      <h2 className={atkinson.className}>What Is An Indie Game?</h2>
+      <h2>What Is An Indie Game?</h2>
       <p>
         For our purposes, we&apos;re taking a generous definition of
         &ldquo;Sufficiently Indie&rdquo;.
@@ -37,14 +34,14 @@ export default function Home() {
         run or play isn&apos;t towards the far right of that spectrum it should
         be welcome.
       </p>
-      <h2 className={atkinson.className}>Do you ever play D&D?</h2>
+      <h2>Do you ever play D&D?</h2>
       <p>
         We focus on the other games that are available, and receive less
         commercial attention. Don&apos;t worry if you&pos;ve never played any
         other TTRPG before, many of the games we play are some of the easiest
         TTRPGs to learn, and are a fantastic gateway into the hobby!
       </p>
-      <h2 className={atkinson.className}>Join The Discord</h2>
+      <h2>Join The Discord</h2>
       <p>
         All of our events and activities are planned and organised through
         discord, so while we have a presence on other social platforms, if you
@@ -53,7 +50,7 @@ export default function Home() {
       <div className="not-prose">
         <Link
           href="https://discord.gg/vG4XtVK4mt"
-          className={`bg-red-600 text-white p-4 px-8 my-8 text-4xl rounded-full block mx-auto w-max shadow transition-all ease-in-out hover:scale-105 ${atkinson.className}`}
+          className="bg-red-600 text-white p-4 px-8 my-8 text-4xl rounded-full block mx-auto w-max shadow transition-all ease-in-out hover:scale-105 font-atkinson"
         >
           Join Us!
         </Link>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { env } from "process";
 import { z } from "zod";
-import { atkinson } from "~/app/font";
 
 const EventValidator = z.object({
   id: z.string(),
@@ -63,7 +62,7 @@ function EventCard({ event }: { event: Event }) {
           </div>
         ) : null}
         <div className="px-6 py-4 flex flex-col gap-4">
-          <div className={`flex justify-between ${atkinson.className}`}>
+          <div className="flex justify-between font-atkinson">
             <div>
               {startTime.toLocaleString("en-GB", {
                 timeZone: "Europe/London",
@@ -75,15 +74,15 @@ function EventCard({ event }: { event: Event }) {
               )}
             </div>
           </div>
-          <h3 className={`text-2xl ${atkinson.className}`}>{event.name}</h3>
+          <h3 className="text-2xl font-atkinson">{event.name}</h3>
           <p className="">{event.description}</p>
           <div className="flex gap-4 items-center justify-end">
-            <div className={atkinson.className}>
+            <div className="font-atkinson">
               Current Players: {event.user_count ?? 0}
             </div>
             <Link
               href="https://discord.gg/vG4XtVK4mt"
-              className={`bg-red-600 px-4 py-2 rounded-full text-white hover:scale-105 transition-all ease-in-out ${atkinson.className}`}
+              className={`bg-red-600 px-4 py-2 rounded-full text-white hover:scale-105 transition-all ease-in-out font-atkinson`}
             >
               Sign Up
             </Link>

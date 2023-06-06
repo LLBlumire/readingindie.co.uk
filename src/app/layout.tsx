@@ -4,7 +4,13 @@ import Image from "next/image";
 import { Atkinson_Hyperlegible, Inter } from "next/font/google";
 import "~/app/styles/globals.css";
 import Link from "next/link";
-import { atkinson, inter } from "./font";
+
+export const atkinson = Atkinson_Hyperlegible({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-atkinson",
+});
+export const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "Reading Indie Gamers",
@@ -26,11 +32,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`flex flex-col gap-12 min-h-screen ${inter.className}`}>
-        <header
-          className={`bg-red-600 text-white mx-auto flex flex-col justify-center p-14 gap-10 ${atkinson.className}`}
-        >
+    <html lang="en" className={`${inter.variable} ${atkinson.variable}`}>
+      <body className="flex flex-col gap-12 min-h-screen font-inter">
+        <header className="bg-red-600 text-white mx-auto flex flex-col justify-center p-14 gap-10 font-atkinson">
           <h1 className="text-5xl text-center md:text-6xl">
             Reading Indie Gamers
           </h1>
