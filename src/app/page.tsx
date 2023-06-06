@@ -37,7 +37,7 @@ export default function Home() {
       <h2>Do you ever play D&D?</h2>
       <p>
         We focus on the other games that are available, and receive less
-        commercial attention. Don&apos;t worry if you&pos;ve never played any
+        commercial attention. Don&apos;t worry if you&apos;ve never played any
         other TTRPG before, many of the games we play are some of the easiest
         TTRPGs to learn, and are a fantastic gateway into the hobby!
       </p>
