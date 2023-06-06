@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import Image from "next/image";
 import { Atkinson_Hyperlegible, Inter } from "next/font/google";
 import "~/app/styles/globals.css";
@@ -94,6 +95,7 @@ export default function RootLayout({
             ></Image>
           </Link>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
