@@ -6,40 +6,33 @@ export default function Home() {
       <h2>Welcome!</h2>
       <p>
         Reading Indie Gamers is an inclusive gaming club dedicated to
-        independently published and lesser known roleplaying games.
+        independently published and lesser known analogue games.
       </p>
       <p>
         In the interest of being a fun environment for everyone, please read and
         uphold our <Link href="/coc">Code of Conduct</Link> while participating
         in club activities, online and in person.
       </p>
-      <h2>What Is A Tabletop Roleplaying Game?</h2>
+      <h2>What Is An Analogue Game?</h2>
       <p>
-        Tabletop Roleplaying Games invite you and some friends to sit down, and
-        imagine another world. It might be similar to ours, or it may be
-        completely different and fantastical. You&apos;ll work together with
-        your friends to tell a story in this world, and the rules of the game
-        will guide that story.
+        Analogue games are those played sat around a table using physical items,
+        as distinct from video games. They tend to fall under the broad headings
+        of Roleplaying Games, Board Games, Card Games, and Wargames; though
+        these categories can often blend together.
       </p>
       <h2>What Is An Indie Game?</h2>
       <p>
         For our purposes, we&apos;re taking a generous definition of
-        &ldquo;Sufficiently Indie&rdquo;.
+        &ldquo;Indie&rdquo;.
       </p>
       <p>
-        Imagine a scale, with &ldquo;two sentences on the back of a
-        beermat&rdquo; on the left and &ldquo;One DnD&trade;&rdquo; on the
-        right. Where one defines &ldquo;Sufficiently Indie&rdquo; on this scale
-        will differ from person to person, but so long as the game you want to
-        run or play isn&apos;t towards the far right of that spectrum it should
-        be welcome.
-      </p>
-      <h2>Do you ever play D&D?</h2>
-      <p>
-        We focus on the other games that are available, and receive less
-        commercial attention. Don&apos;t worry if you&apos;ve never played any
-        other TTRPG before, many of the games we play are some of the easiest
-        TTRPGs to learn, and are a fantastic gateway into the hobby!
+        In particular, what is considered &ldquo;Indie&rdquo; can vary
+        significantly between different genres of analogue game, and is
+        generally easiest to define by what it isn't rather than what it is.
+        There is no hard and fast rule for determining if something is
+        sufficiently indie, but as long as it's not a game with a monopoly in
+        its genre and one that is not heavily embedded into the cultural
+        zeitgeist it&apos;s almost certainly welcome!
       </p>
       <h2>Join The Discord</h2>
       <p>

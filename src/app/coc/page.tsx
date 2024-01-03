@@ -63,14 +63,14 @@ export default function Coc() {
       <ul>
         <li>
           Respect player pronouns and character pronouns; routinely reaffirm
-          these throughout play and at the start of each session.
+          these throughout play and at the start of any game.
         </li>
         <li>
           Practice regular check-ins for enthusiastic consent of game content.
         </li>
         <li>
           Respect player autonomy and practice regular check-ins to affirm
-          enthusiastic agreement of game development.
+          enthusiastic agreement of narrative game development.
         </li>
         <li>
           Clearly declare the concept, aim, tone, &amp; subject matter

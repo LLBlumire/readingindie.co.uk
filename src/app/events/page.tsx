@@ -78,7 +78,7 @@ function EventCard({ event }: { event: Event }) {
           <p className="">{event.description}</p>
           <div className="flex gap-4 items-center justify-end">
             <div className="font-atkinson">
-              Current Players: {event.user_count ?? 0}
+              Interested: {event.user_count ?? 0}
             </div>
             <Link
               href="https://discord.gg/vG4XtVK4mt"
