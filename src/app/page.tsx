@@ -28,10 +28,10 @@ export default function Home() {
       <p>
         In particular, what is considered &ldquo;Indie&rdquo; can vary
         significantly between different genres of analogue game, and is
-        generally easiest to define by what it isn't rather than what it is.
-        There is no hard and fast rule for determining if something is
-        sufficiently indie, but as long as it's not a game with a monopoly in
-        its genre and one that is not heavily embedded into the cultural
+        generally easiest to define by what it isn&apos;t rather than what it
+        is. There is no hard and fast rule for determining if something is
+        sufficiently indie, but as long as it&apos;s not a game with a monopoly
+        in its genre and one that is not heavily embedded into the cultural
         zeitgeist it&apos;s almost certainly welcome!
       </p>
       <h2>Join The Discord</h2>
