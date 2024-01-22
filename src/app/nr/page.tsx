@@ -19,12 +19,12 @@ export default function Nr() {
             </p>
             <p>
                 Our members are able to bring along tutorial decks to help teach
-                you the game, and once you've learned you can build or netdeck
+                you the game, and once you&rsquo;ve learned you can build or netdeck
                 your own list, and have it fully proxy printed and set up by our
                 members for under £20.
             </p>
             <p>
-                These proxies aren't just nice to have, they are fully legal in
+                These proxies aren&rsquo;t just nice to have, they are fully legal in
                 tournament play at all competative levels, keeping the barrier
                 to entry to Netrunner lower than any other competative card game
                 on the market.
@@ -35,7 +35,7 @@ export default function Nr() {
                 the <a href="https://netrunnercards.co.uk/">Netrunner Cards UK</a> store.
             </p>
             <p>
-                If you're in Reading and would like to learn more then:
+                If you&rsquo;re in Reading and would like to learn more then:
                 <div className="not-prose">
                     <Link
                         href="https://discord.gg/vG4XtVK4mt"
