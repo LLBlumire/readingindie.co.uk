@@ -48,7 +48,7 @@ export default function StartupH1CO2024() {
             </table>
             <h3>Competitive Level</h3>
             <p>
-                Circuit Openers, while an organised tournament with prizes, are considered a Casual Tier event. We'll be prioritising accessibility and opportunity to learn over tight rules enforcement and competitive integrity!
+                Circuit Openers, while an organised tournament with prizes, are considered a Casual Tier event. We&apos;ll be prioritising accessibility and opportunity to learn over tight rules enforcement and competitive integrity!
             </p>
             <p>
                 Tournament page on <a href="https://alwaysberunning.net/tournaments/4081/rig-startup-circuit-opener-h1">Always Be Running</a>
