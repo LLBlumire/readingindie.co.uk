@@ -31,7 +31,7 @@ export default function StartupH1CO2024() {
                 </tr>
                 <tr>
                     <th>Top 2:&nbsp;</th>
-                    <td>Cat's Cradle Playmat</td>
+                    <td>Cat&apos;s Cradle Playmat</td>
                 </tr>
                 <tr>
                     <th>Top 4:&nbsp;</th>
