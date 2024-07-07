@@ -15,7 +15,7 @@ export const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "Reading Indie Gamers",
   description:
-    "A community for tabletop roleplaying game enjoyers in the town of Reading, Berkshire.",
+    "A community for TTRPG, Board Game, Card Game, Wargame, and other analogue game enjoyers in the town of Reading, Berkshire.",
   icons: {
     icon: [
       { url: "/icon.svg", type: "image/svg+xml" },
