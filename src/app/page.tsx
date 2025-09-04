@@ -57,6 +57,18 @@ export default function Home() {
         We focus primarily on in person events, and so if you aren&apos;t from
         Reading or nearby, there&apos;s little reason for you to join!
       </p>
+      <h2>Donate To Us</h2>
+      <p>
+        If you like what we do and want to help fund us further, you can make donations here:
+      </p>
+      <div className="not-prose">
+        <Link
+          href="https://donate.stripe.com/fZu7sM6yW21W6Mj9S26oo04"
+          className="bg-blue-600 text-white p-4 px-8 my-8 text-4xl rounded-full block mx-auto w-max shadow transition-all ease-in-out hover:scale-105 font-atkinson"
+        >
+          Donate To Us!
+        </Link>
+      </div>
     </article>
   );
 }
